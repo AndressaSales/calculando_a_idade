@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(104, 104, 230);
+    min-height: 100vh;
+}
+section{
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.848);
+    background-color: rgb(237, 92, 222);
+}
+header{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 blueviolet;
+}
+section input{
+    width: 50%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+section input::placeholder{
+    color: white;
+    font-size: 1rem;
+}
+section button{
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+.data{
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+footer {
+    color:purple;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+    position: relative;
+    
+}
+.conte{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    position: relative;
+    left: 7%;
+}
